@@ -1,0 +1,20 @@
+CAR SENSE AI - START HERE
+
+1. Open this folder in VS Code.
+2. Open Terminal > New Terminal.
+3. Create and activate a virtual environment:
+   py -m venv .venv
+   .venv\Scripts\Activate.ps1
+4. Install dependencies:
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+5. Test the core code:
+   python -m unittest test_agent.py
+6. Run the terminal chatbot:
+   python chatbot.py
+7. Run evaluation:
+   python evaluate.py
+8. Launch dashboard:
+   streamlit run app.py
+
+The chatbot is rule-based/offline, not an LLM. Model inputs and cost assumptions are academic estimates.
